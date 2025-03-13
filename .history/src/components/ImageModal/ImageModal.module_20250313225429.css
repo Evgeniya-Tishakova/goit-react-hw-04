@@ -1,0 +1,12 @@
+.modalContent {
+
+    position: absolute;
+    inset: 40px;
+
+    background: rgb(255, 255, 255);
+    overflow: auto;
+
+    outline: none;
+    padding: 20px;
+
+}

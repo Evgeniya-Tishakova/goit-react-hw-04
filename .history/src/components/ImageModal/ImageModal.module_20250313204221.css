@@ -1,0 +1,41 @@
+modalOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100vw;
+    /* Полная ширина экрана */
+    height: 100vh;
+    /* Полная высота экрана */
+
+    background-color: rgba(0, 0, 0, 0.9);
+    /* Чёрный с прозрачностью */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    z-index: 9999;
+    /* Перекрывает всё */
+
+    opacity: 0;
+    transition: opacity 300ms ease-in-out;
+}
+
+.modalContent {
+    position: relative;
+    background-color: transparent;
+    border: none;
+    outline: none;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: auto;
+    height: auto;
+
+    transition: transform 300ms ease-in-out, opacity 300ms ease-in-out;
+    transform: scale(0.95);
+    opacity: 0;
+}

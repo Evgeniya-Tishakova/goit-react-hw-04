@@ -1,0 +1,8 @@
+.modalContent {
+    position: absolute;
+    inset: 40px;
+    overflow: auto;
+    outline: none;
+}
+
+.overlay {}

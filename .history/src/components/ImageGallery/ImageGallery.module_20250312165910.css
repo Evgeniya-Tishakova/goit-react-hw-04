@@ -1,0 +1,16 @@
+.list {
+    display: flex;
+    gap: 16px;
+    padding: 16px;
+    max-width: 100%;
+    margin: 0 auto;
+    list-style-type: none;
+}
+
+.item {
+
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}

@@ -1,0 +1,16 @@
+.image {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    /* щоб не розтягувалося по ширині, якщо висота фіксована */
+    height: auto;
+    /* щоб не розтягувалося по висоті, якщо ширина фіксована */
+    display: block;
+    object-fit: contain;
+    /* або cover, залежно від задачі */
+}
+
+.imageContainer {
+    max-width: 100%;
+    max-height: 100%;
+}
